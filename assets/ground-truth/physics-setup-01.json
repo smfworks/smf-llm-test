@@ -1,0 +1,19 @@
+{
+  "test": "C1. Physical Reasoning — Causality Prediction",
+  "asset": "physics-setup-01.png",
+  "setup_description": "Three colored blocks stacked vertically: blue (bottom), red (middle), green (top). The red block is the middle support.",
+  "causal_chain": [
+    "The red block is removed from the middle of the stack",
+    "The green block (top) loses its support and falls downward",
+    "The green block lands on the surface where the red block was",
+    "The blue block (bottom) remains stable and undisturbed"
+  ],
+  "correct_outcome": "Green block falls; blue block stays stable; red block is gone",
+  "incorrect_outcomes": [
+    "All blocks fall",
+    "Tower collapses entirely",
+    "Blue block moves or falls",
+    "Green block remains floating"
+  ],
+  "physics_principle": "Removal of middle support causes upper block to fall due to gravity; bottom block remains stable if center of mass is supported"
+}

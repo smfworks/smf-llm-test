@@ -1,0 +1,209 @@
+{
+  "models": {
+    "ollama-kimik2.6": {
+      "provider": "ollama",
+      "model": "kimi-k2.6:cloud",
+      "base_url": "http://localhost:11434",
+      "timeout": 120
+    },
+    "ollama-deepseek-v4": {
+      "provider": "ollama",
+      "model": "deepseek-v4-pro:cloud",
+      "base_url": "http://localhost:11434",
+      "timeout": 120
+    },
+    "ollama-qwen3.5": {
+      "provider": "ollama",
+      "model": "qwen3.5:9b",
+      "base_url": "http://localhost:11434",
+      "timeout": 60
+    },
+    "ollama-gemma4-12b": {
+      "provider": "ollama",
+      "model": "gemma4:12b",
+      "base_url": "http://localhost:11434",
+      "timeout": 120,
+      "notes": "Local 12B multimodal model"
+    },
+    "ollama-gemma4-31b-cloud": {
+      "provider": "ollama",
+      "model": "gemma4:31b-cloud",
+      "base_url": "http://localhost:11434",
+      "timeout": 180,
+      "notes": "Cloud 31B multimodal model via Ollama Cloud"
+    },
+    "ollama-gemma4": {
+      "provider": "ollama",
+      "model": "gemma4:e4b",
+      "base_url": "http://localhost:11434",
+      "timeout": 120
+    },
+    "ollama-minimax-m3": {
+      "provider": "ollama",
+      "model": "minimax-m3:cloud",
+      "base_url": "http://localhost:11434",
+      "timeout": 120
+    },
+    "ollama-glm-5.1": {
+      "provider": "ollama",
+      "model": "glm-5.1-english:latest",
+      "base_url": "http://localhost:11434",
+      "timeout": 120
+    },
+    "openai-gpt4o": {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "timeout": 60
+    },
+    "openai-gpt4o-mini": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "timeout": 60
+    },
+    "anthropic-claude-opus-4": {
+      "provider": "anthropic",
+      "model": "claude-opus-4-20250514",
+      "timeout": 120
+    },
+    "anthropic-claude-sonnet-4": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "timeout": 60
+    },
+    "openrouter-llama4": {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-4-maverick",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-mistral-large-3": {
+      "provider": "openrouter",
+      "model": "mistralai/mistral-large-3",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-command-r-plus": {
+      "provider": "openrouter",
+      "model": "cohere/command-r-plus",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-gemini-2.5-pro": {
+      "provider": "openrouter",
+      "model": "google/gemini-2.5-pro",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "ollama-nemotron3-33b": {
+      "provider": "ollama",
+      "base_url": "http://localhost:11434",
+      "model": "nemotron3:33b"
+    },
+    "openrouter-minimax-m3": {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m3",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-nemotron-3-ultra": {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 180
+    },
+    "openrouter-gemma-4-26b": {
+      "provider": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-gpt-5.5": {
+      "provider": "openrouter",
+      "model": "openai/gpt-5.5",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120
+    },
+    "openrouter-qwen3.7-max": {
+      "provider": "openrouter",
+      "model": "qwen/qwen3.7-max",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 300
+    },
+    "openrouter-nemotron-3-nano-omni": {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120,
+      "notes": "NVIDIA multimodal model - vision + text reasoning, free tier"
+    },
+    "openrouter-gemini-1.5-pro": {
+      "provider": "openrouter",
+      "model": "google/gemini-1.5-pro",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 180,
+      "notes": "Multimodal - supports video, long context up to 1M tokens"
+    },
+    "openrouter-claude-3.5-sonnet": {
+      "provider": "openrouter",
+      "model": "anthropic/claude-3.5-sonnet",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 120,
+      "notes": "Vision capabilities for image understanding"
+    },
+    "ollama-qwen2-vl": {
+      "provider": "ollama",
+      "model": "qwen2-vl:7b",
+      "base_url": "http://localhost:11434",
+      "timeout": 120,
+      "notes": "Open-weights vision model for local multimodal testing"
+    },
+    "openrouter-nex-n2-pro": {
+      "provider": "openrouter",
+      "model": "nex-agi/nex-n2-pro:free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 180,
+      "notes": "Nex AGI N2 Pro — brand new model on OpenRouter free tier"
+    },
+    "openrouter-stepfun-step-3.7-flash": {
+      "provider": "openrouter",
+      "model": "stepfun/step-3.7-flash",
+      "base_url": "https://openrouter.ai/api/v1",
+      "timeout": 180,
+      "notes": "StepFun Step-3.7-Flash via OpenRouter"
+    }
+  },
+  "test_suite": {
+    "tests": [
+      "basic_reasoning",
+      "code_generation",
+      "debugging",
+      "algorithm_explanation",
+      "complex_reasoning",
+      "content_generation",
+      "edge_case_handling",
+      "long_context_rag",
+      "structured_output",
+      "tool_use",
+      "instruction_following",
+      "adversarial",
+      "code_execution_reasoning",
+      "summarization",
+      "recent_knowledge"
+    ],
+    "environments": ["cold_start", "warm", "sustained_load", "error_recovery"]
+  },
+  "metrics": {
+    "time_to_first_token": true,
+    "total_generation_time": true,
+    "tokens_per_second": true,
+    "accuracy_score": true,
+    "timeout_rate": true,
+    "error_recovery": true,
+    "cost_per_1k_tokens": false
+  },
+  "output": {
+    "format": "markdown",
+    "include_raw_responses": false,
+    "include_charts": false
+  }
+}

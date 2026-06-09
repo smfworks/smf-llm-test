@@ -1,0 +1,15 @@
+# SMF Works AI Model Benchmark — Dependencies
+# Python 3.10+
+
+# Provider SDKs
+openai>=1.30.0
+anthropic>=0.25.0
+
+# HTTP client for Ollama and general requests
+requests>=2.31.0
+
+# Optional: For multimodal image processing
+# pillow>=10.0.0
+
+# Optional: For chart generation in reports
+# matplotlib>=3.8.0

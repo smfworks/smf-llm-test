@@ -1,0 +1,24 @@
+{
+  "test": "C2. Action Prediction — Robot Trajectory",
+  "asset": "robot-scene-01.png",
+  "setup_description": "Robot arm with gripper positioned at left side of scene. Red flower in center-left. Blue vase in center-right. Wooden block obstacle between flower and vase.",
+  "coordinates_approximate": {
+    "gripper_start": [120, 300],
+    "flower_location": [350, 280],
+    "vase_location": [650, 320],
+    "obstacle_location": [480, 300],
+    "obstacle_dimensions": [80, 100],
+    "scene_dimensions": [800, 600]
+  },
+  "optimal_path_waypoints": [
+    [120, 300],
+    [200, 250],
+    [300, 220],
+    [350, 280],
+    [380, 200],
+    [500, 220],
+    [600, 280],
+    [650, 320]
+  ],
+  "obstacle_clearance_required": 50
+}

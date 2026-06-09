@@ -1,0 +1,52 @@
+# Ground Truth: workspace-complex-01.jpg
+
+## Test: A1. Image Description — Complex Scene
+
+### Visible Objects (10 key items)
+1. Laptop computer — foreground, open, screen showing Python code
+2. Coffee mug — white/ceramic, steam rising, near laptop
+3. Sticky notes — yellow, scattered, handwritten text visible
+4. Wireless mouse — black, right of laptop
+5. Smartphone — screen showing messaging app interface
+6. Potted succulent plant — small, green, near laptop
+7. Eyeglasses — reading glasses, near notebook
+8. Notebook with pen — spiral bound, open, pen resting on page
+9. Loose papers with charts/graphs — scattered, showing data visualizations
+10. Desk lamp — modern design, casting warm light from right side
+
+### People's Actions
+- Person 1: Standing in background, holding a tablet device, appears to be showing something
+- Person 2: Sitting in mid-ground, partially visible, appears to be working
+
+### Text Readable on Screens
+- Laptop screen: Python code visible (syntax highlighting, function definitions)
+- Smartphone screen: Messaging app with conversation bubbles
+- Sticky notes: Handwritten text (illegible at full resolution but present)
+
+### Spatial Relationships
+- Laptop: foreground center-left
+- Coffee mug: immediately right of laptop
+- Smartphone: behind/right of mug
+- Plant: left of laptop
+- Glasses/notebook: right side of desk
+- Papers: scattered between laptop and notebook
+- Lamp: right side, casting light across desk
+- Person standing: background left
+- Person sitting: background right
+
+### Lighting
+- Primary: Desk lamp from right (warm, yellow-toned)
+- Secondary: Natural light from window on left (cooler, daylight)
+- Result: Mixed warm/cool lighting with soft shadows
+
+### Depth Layers
+- Foreground: Laptop, mug, mouse, plant
+- Mid-ground: Papers, notebook, glasses, phone
+- Background: Two people, window, wall
+
+### Evaluation Targets
+- Object recall: ≥8/10 for full credit
+- Action accuracy: Both people's actions correctly described
+- Text extraction: Laptop code + phone app identified
+- Spatial precision: Left/right, foreground/background correctly noted
+- Hallucination check: No invented objects

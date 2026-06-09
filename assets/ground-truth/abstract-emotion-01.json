@@ -1,0 +1,23 @@
+{
+  "test": "A2. Image Description — Abstract/Artistic",
+  "asset": "abstract-emotion-01.png",
+  "ground_truth": {
+    "dominant_colors": ["deep indigo", "midnight blue", "warm amber", "gold"],
+    "color_distribution": "70% cool blues/purples, 30% warm amber/gold accents",
+    "composition_elements": [
+      "Swirling organic forms suggesting movement and fluidity",
+      "Sharp crystalline geometric shapes intersecting soft blurred edges",
+      "Central focal point where warm light breaks through cool background",
+      "Sense of depth created by layering — foreground sharpness vs background softness"
+    ],
+    "mood_intended": "longing, bittersweet beauty, melancholy with hope, vastness with intimacy",
+    "artistic_style": "contemporary abstract, ethereal, dreamlike, fine art aesthetic",
+    "negative_space": "Significant — the blue/purple areas create breathing room around the amber focal points",
+    "texture": "Smooth gradients meeting sharp geometric edges, luminous quality in amber sections"
+  },
+  "evaluation_targets": {
+    "color_accuracy": "≥3/4 dominant colors identified",
+    "composition_awareness": "Notes focal points, balance, and contrast between soft/sharp",
+    "emotional_interpretation": "Mood should include longing, melancholy, or bittersweet — not generic 'pretty' or 'colorful'"
+  }
+}

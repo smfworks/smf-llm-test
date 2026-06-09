@@ -1,0 +1,16 @@
+{
+  "test": "C3. Autonomous Driving — Action Prediction",
+  "asset": "driving-scene-01.png",
+  "setup_description": "Dashcam view approaching busy intersection. Pedestrian crossing from left. Traffic light visible ahead showing yellow/amber. Vehicle ahead slowing. Cyclist in bike lane on right. Crosswalk markings visible.",
+  "correct_action": "Decelerate / prepare to stop",
+  "incorrect_actions": ["Accelerate", "Proceed through", "Turn right", "Speed up"],
+  "critical_cues": [
+    "Traffic light showing yellow/amber",
+    "Pedestrian in crosswalk from left",
+    "Vehicle ahead slowing or stopped",
+    "Cyclist in right bike lane",
+    "Crosswalk markings on road",
+    "Intersection ahead"
+  ],
+  "reasoning": "Yellow light + pedestrian in crosswalk + vehicle ahead slowing = decelerate and prepare to stop safely"
+}
